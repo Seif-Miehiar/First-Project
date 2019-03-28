@@ -1,0 +1,353 @@
+/*body {*/
+/*	border: 4mm ridge rgb(170, 50, 220, .6);
+*/	
+	/*background: url('RBK1.png');
+	background-attachment:fixed;
+
+	background-color: white;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	 background-blend-mode: lighten-color;
+	 
+	 background-position: center;
+	 background-position: 
+	 background-size: 1000px 850px;*/
+	 /*opacity: 0.5;*/
+
+
+/*}
+.rbk{
+	position: relative;
+	z-index: -5;
+	opacity: 0.5;
+	size: auto;
+
+}
+*/
+html {
+    min-height: 0%
+}
+body {
+    
+    background: url('RBK1.png');
+    background-color: gray;
+    /*background-color: grey;*/
+    background-repeat: repeat;
+    background-clip: content-box;
+     background-blend-mode: lighten-color;
+     background-position: center;
+     background-size: 1000px 850px;
+     
+     height: 500px;
+font-size: 30px
+}
+ #img1{
+    border: 1px solid black;
+  color: white;
+  font-variant-caps: gray
+  opacity :60;
+   background-repeat: no-repeat;
+ background-size: 5000px 5000px;
+  font-size: 50px;
+  width: 500px;
+  height: 400px;
+background-color:cornsilk; 
+  
+ }
+/* .rbk{
+    position: relative;
+    z-index: -5;
+    opacity: 0.5;
+    size: auto;
+}*/
+
+#rbk {
+  border: 20px solid black;
+  padding: 150px;
+  background: url("mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: 5000px 5000px;
+  opacity: 0
+}
+#wrongAnswer {
+        width: 18px;
+        height: 18px;
+}
+#correctAnswer{
+    width: 18px;
+        height: 18px;
+}
+[id="123"]{ color: red ;}
+#startTimer{
+ background-color: silver; 
+  border:  1px solid  black;
+  color: black;
+  padding: 10px 2px;
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 20px;
+  width: 70px;
+  height: 80px;
+  border-radius: 25%;
+}
+#startTimer:hover {
+  background-color: red    ;
+  color: white;
+}
+#startTimer {
+  display: inline-block;
+  border-radius: 1px;
+  background-color: #B40381;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 0px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+#startTime span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+#startTimer span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  
+}
+#next1{
+ background-color: silver; 
+  border:  2px solid  black;
+  color: black;
+  padding: 10px 2px;
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 20px;
+  width: 70px;
+  height: 80px;
+  border-radius: 25%;
+}
+#next1:hover {
+  background-color: red    ;
+  color: white;
+}
+#next1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #B40381;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+#next1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+#next1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  
+}
+#next2{
+ background-color: silver; 
+  border:  2px solid  black;
+  color: black;
+  padding: 10px 2px;
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 20px;
+  width: 70px;
+  height: 80px;
+  border-radius: 25%;
+}
+#next2:hover {
+  background-color: red ;
+  color: white;
+}
+#next2 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #B40381;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+ #next2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+ #next2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  }
+ 
+ #next3{
+  background-color: silver; 
+  border:  2px solid  black;
+  color: black;
+  padding: 10px 2px;
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 20px;
+  width: 70px;
+  height: 80px;
+  border-radius: 25%;
+}
+#next3:hover {
+  background-color: red ;
+  color: white;
+}
+#next3 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #B40381;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+#next3 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+#next3 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  
+}
+ #next4{
+  background-color: silver; 
+  border:  2px solid  black;
+  color: black;
+  padding: 10px 2px;
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 20px;
+  width: 70px;
+  height: 80px;
+  border-radius: 25%;
+}
+#next4:hover {
+  background-color: red ;
+  color: white;
+}
+#next4 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #B40381;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+#next4 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+#next4 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  
+}
+#finish{
+ background-color: silver; 
+  border:  2px solid  black;
+  color: black;
+  padding: 10px 2px;
+  text-align: center;
+  
+  display: inline-block;
+  font-size: 20px;
+  width: 70px;
+  height: 80px;
+  border-radius: 25%;
+}
+#finish:hover {
+  background-color: red    ;
+  color: white;
+}
+#finish {
+  display: inline-block;
+  border-radius: 2px;
+  background-color: #B40381;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+ #finish span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+ #finish span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+ }
+#finishR {
+    color: red;
+    font-size: 100px
+}
